@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "API_PORT=3000 NODE_ENV=dev TOKEN_KEY=cantGuessThisKey nodemon server.js"
+    "dev": "set API_PORT=3000 & set NODE_ENV=dev & set TOKEN_KEY=cantGuessThisKey & nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/prof3ssorSt3v3/postman-test#readme",
   "dependencies": {
-    "bcrypt": "^4.0.1",
+    "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
